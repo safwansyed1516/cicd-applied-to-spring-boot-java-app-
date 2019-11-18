@@ -4,3 +4,7 @@ language: java
 #jdk
 jdk:
  - openjdk8
+
+#linux_permissin for travis-ci
+before_install:
+  - chmod +x mvnw
