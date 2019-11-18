@@ -3,4 +3,4 @@ language: java
 
 #jdk
 jdk:
-  -openjdk8
+ - openjdk8
