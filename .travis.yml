@@ -8,3 +8,10 @@ jdk:
 #linux_permissin for travis-ci
 before_install:
   - chmod +x mvnw
+  - echo "$DOCKER_PASSWORD" | docker login  -u "$DOCKER_USERNAME" --password-stdin
+  - docker pull openjdk:8-jdk-alpine
+  
+#Linking Travis CI and Docker
+- docker
+
+
