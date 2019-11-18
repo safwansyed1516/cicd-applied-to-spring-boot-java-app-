@@ -4,6 +4,9 @@ language: java
 #jdk
 jdk:
  - openjdk8
+ 
+#Linking Travis CI and Docker
+- docker
 
 #linux_permissin for travis-ci
 before_install:
@@ -11,7 +14,6 @@ before_install:
   - echo "$DOCKER_PASSWORD" | docker login  -u "$DOCKER_USERNAME" --password-stdin
   - docker pull openjdk:8-jdk-alpine
   
-#Linking Travis CI and Docker
-- docker
+
 
 
