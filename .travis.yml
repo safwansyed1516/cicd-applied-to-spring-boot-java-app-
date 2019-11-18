@@ -1,2 +1,6 @@
 #we use java
-language:java
+language: java
+
+#jdk
+jdk:
+  -openjdk8
