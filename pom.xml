@@ -40,6 +40,12 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<properties>
+  <sonar.projectKey>safwansyed1516_cicd-applied-to-spring-boot-java-app-</sonar.projectKey>
+  <sonar.organization>safwansyed1516</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>4f44b37ca1d4f093fdd45b7cd480cc96ece3872c</sonar.login>
+</properties>
 	</dependencies>
 
 	<build>

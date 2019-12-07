@@ -15,6 +15,7 @@ public class CicdAppliedToSpringBootJavaAppApplication {
 	public String helloMessage() {
 		long currentDateTime = System.currentTimeMillis();
 		Date currentDate = new Date(currentDateTime);
+		System.out.println(currentDateTime);
 		return "Hello! deployed at" + currentDate;
 	}
 
