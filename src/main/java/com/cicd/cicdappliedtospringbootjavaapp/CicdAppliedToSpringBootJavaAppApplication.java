@@ -16,6 +16,7 @@ public class CicdAppliedToSpringBootJavaAppApplication {
 		long currentDateTime = System.currentTimeMillis();
 		Date currentDate = new Date(currentDateTime);
 		System.out.println(currentDateTime);
+		System.out.println("Added code smell");
 		return "Hello! deployed at" + currentDate;
 	}
 
